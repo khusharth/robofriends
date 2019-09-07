@@ -3,6 +3,10 @@ import Card from './Card';
 
 // CardList Component having robot prop
 const CardList = ({ robots }) => {
+    // Throwing Error
+    // if (true) {
+    //     throw new Error('Noooooooo');
+    // }
     return (
         <div>
             {
